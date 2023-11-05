@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE75CECF2AF7A92B008A3930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75CECE2AF7A92B008A3930 /* AppDelegate.swift */; };
+		CE75CED12AF7A92B008A3930 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75CED02AF7A92B008A3930 /* ContentView.swift */; };
+		CE75CED32AF7A92C008A3930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE75CED22AF7A92C008A3930 /* Assets.xcassets */; };
+		CE75CED62AF7A92C008A3930 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE75CED52AF7A92C008A3930 /* Preview Assets.xcassets */; };
+		CE75CEE32AF7AF0C008A3930 /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CE75CEDD2AF7AF0A008A3930 /* tv_retro.usdz */; };
+		CE75CEE42AF7AF0C008A3930 /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CE75CEDE2AF7AF0A008A3930 /* fender_stratocaster.usdz */; };
+		CE75CEE52AF7AF0C008A3930 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CE75CEDF2AF7AF0B008A3930 /* chair_swan.usdz */; };
+		CE75CEE62AF7AF0C008A3930 /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CE75CEE02AF7AF0B008A3930 /* gramophone.usdz */; };
+		CE75CEE72AF7AF0C008A3930 /* toy_drummer_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CE75CEE12AF7AF0C008A3930 /* toy_drummer_idle.usdz */; };
+		CE75CEE82AF7AF0C008A3930 /* flower_tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CE75CEE22AF7AF0C008A3930 /* flower_tulip.usdz */; };
+		CEAC7CE92AF7CB8000A0D7BD /* ModelPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC7CE82AF7CB8000A0D7BD /* ModelPickerView.swift */; };
+		CEAC7CEB2AF7CBAD00A0D7BD /* PlacementButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC7CEA2AF7CBAD00A0D7BD /* PlacementButtonView.swift */; };
+		CEAC7CED2AF7D30300A0D7BD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC7CEC2AF7D30300A0D7BD /* Model.swift */; };
+		CEAC7CF32AF7DB7A00A0D7BD /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = CEAC7CF22AF7DB7A00A0D7BD /* FocusEntity */; };
+		CEAC7CF52AF7E66000A0D7BD /* robot_walk_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CEAC7CF42AF7E66000A0D7BD /* robot_walk_idle.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE75CECB2AF7A92B008A3930 /* Scenar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scenar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE75CECE2AF7A92B008A3930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE75CED02AF7A92B008A3930 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE75CED22AF7A92C008A3930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE75CED52AF7A92C008A3930 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE75CEDD2AF7AF0A008A3930 /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
+		CE75CEDE2AF7AF0A008A3930 /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
+		CE75CEDF2AF7AF0B008A3930 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
+		CE75CEE02AF7AF0B008A3930 /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gramophone.usdz; sourceTree = "<group>"; };
+		CE75CEE12AF7AF0C008A3930 /* toy_drummer_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_drummer_idle.usdz; sourceTree = "<group>"; };
+		CE75CEE22AF7AF0C008A3930 /* flower_tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower_tulip.usdz; sourceTree = "<group>"; };
+		CEAC7CE82AF7CB8000A0D7BD /* ModelPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPickerView.swift; sourceTree = "<group>"; };
+		CEAC7CEA2AF7CBAD00A0D7BD /* PlacementButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementButtonView.swift; sourceTree = "<group>"; };
+		CEAC7CEC2AF7D30300A0D7BD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CEAC7CF42AF7E66000A0D7BD /* robot_walk_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = robot_walk_idle.usdz; sourceTree = "<group>"; };
+		CEAC7CF62AF7F65C00A0D7BD /* Scenar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Scenar-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE75CEC82AF7A92B008A3930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAC7CF32AF7DB7A00A0D7BD /* FocusEntity in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE75CEC22AF7A92B008A3930 = {
+			isa = PBXGroup;
+			children = (
+				CEAC7CF62AF7F65C00A0D7BD /* Scenar-Info.plist */,
+				CE75CECD2AF7A92B008A3930 /* ModelPickerApp */,
+				CE75CECC2AF7A92B008A3930 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE75CECC2AF7A92B008A3930 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE75CECB2AF7A92B008A3930 /* Scenar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE75CECD2AF7A92B008A3930 /* ModelPickerApp */ = {
+			isa = PBXGroup;
+			children = (
+				CEAC7CE72AF7CB6F00A0D7BD /* Views */,
+				CE75CEDC2AF7AEEE008A3930 /* Models */,
+				CE75CECE2AF7A92B008A3930 /* AppDelegate.swift */,
+				CE75CED02AF7A92B008A3930 /* ContentView.swift */,
+				CE75CED22AF7A92C008A3930 /* Assets.xcassets */,
+				CE75CED42AF7A92C008A3930 /* Preview Content */,
+				CEAC7CEC2AF7D30300A0D7BD /* Model.swift */,
+			);
+			path = ModelPickerApp;
+			sourceTree = "<group>";
+		};
+		CE75CED42AF7A92C008A3930 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE75CED52AF7A92C008A3930 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE75CEDC2AF7AEEE008A3930 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEAC7CF42AF7E66000A0D7BD /* robot_walk_idle.usdz */,
+				CE75CEDF2AF7AF0B008A3930 /* chair_swan.usdz */,
+				CE75CEDE2AF7AF0A008A3930 /* fender_stratocaster.usdz */,
+				CE75CEE22AF7AF0C008A3930 /* flower_tulip.usdz */,
+				CE75CEE02AF7AF0B008A3930 /* gramophone.usdz */,
+				CE75CEE12AF7AF0C008A3930 /* toy_drummer_idle.usdz */,
+				CE75CEDD2AF7AF0A008A3930 /* tv_retro.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEAC7CE72AF7CB6F00A0D7BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEAC7CE82AF7CB8000A0D7BD /* ModelPickerView.swift */,
+				CEAC7CEA2AF7CBAD00A0D7BD /* PlacementButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE75CECA2AF7A92B008A3930 /* Scenar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE75CED92AF7A92C008A3930 /* Build configuration list for PBXNativeTarget "Scenar" */;
+			buildPhases = (
+				CE75CEC72AF7A92B008A3930 /* Sources */,
+				CE75CEC82AF7A92B008A3930 /* Frameworks */,
+				CE75CEC92AF7A92B008A3930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scenar;
+			packageProductDependencies = (
+				CEAC7CF22AF7DB7A00A0D7BD /* FocusEntity */,
+			);
+			productName = ModelPickerApp;
+			productReference = CE75CECB2AF7A92B008A3930 /* Scenar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE75CEC32AF7A92B008A3930 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					CE75CECA2AF7A92B008A3930 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = CE75CEC62AF7A92B008A3930 /* Build configuration list for PBXProject "Scenar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE75CEC22AF7A92B008A3930;
+			packageReferences = (
+				CEAC7CF12AF7DB7A00A0D7BD /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
+			productRefGroup = CE75CECC2AF7A92B008A3930 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE75CECA2AF7A92B008A3930 /* Scenar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE75CEC92AF7A92B008A3930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE75CEE32AF7AF0C008A3930 /* tv_retro.usdz in Resources */,
+				CE75CEE82AF7AF0C008A3930 /* flower_tulip.usdz in Resources */,
+				CEAC7CF52AF7E66000A0D7BD /* robot_walk_idle.usdz in Resources */,
+				CE75CEE72AF7AF0C008A3930 /* toy_drummer_idle.usdz in Resources */,
+				CE75CEE62AF7AF0C008A3930 /* gramophone.usdz in Resources */,
+				CE75CED62AF7A92C008A3930 /* Preview Assets.xcassets in Resources */,
+				CE75CEE42AF7AF0C008A3930 /* fender_stratocaster.usdz in Resources */,
+				CE75CEE52AF7AF0C008A3930 /* chair_swan.usdz in Resources */,
+				CE75CED32AF7A92C008A3930 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE75CEC72AF7A92B008A3930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAC7CED2AF7D30300A0D7BD /* Model.swift in Sources */,
+				CEAC7CEB2AF7CBAD00A0D7BD /* PlacementButtonView.swift in Sources */,
+				CE75CED12AF7A92B008A3930 /* ContentView.swift in Sources */,
+				CE75CECF2AF7A92B008A3930 /* AppDelegate.swift in Sources */,
+				CEAC7CE92AF7CB8000A0D7BD /* ModelPickerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE75CED72AF7A92C008A3930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE75CED82AF7A92C008A3930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE75CEDA2AF7A92C008A3930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ModelPickerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6RGT892946;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Scenar-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Scenar;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.antoninsimon.ModelPickerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE75CEDB2AF7A92C008A3930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ModelPickerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6RGT892946;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Scenar-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Scenar;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.antoninsimon.ModelPickerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE75CEC62AF7A92B008A3930 /* Build configuration list for PBXProject "Scenar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE75CED72AF7A92C008A3930 /* Debug */,
+				CE75CED82AF7A92C008A3930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE75CED92AF7A92C008A3930 /* Build configuration list for PBXNativeTarget "Scenar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE75CEDA2AF7A92C008A3930 /* Debug */,
+				CE75CEDB2AF7A92C008A3930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEAC7CF12AF7DB7A00A0D7BD /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEAC7CF22AF7DB7A00A0D7BD /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEAC7CF12AF7DB7A00A0D7BD /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CE75CEC32AF7A92B008A3930 /* Project object */;
+}
